@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #8DAECA;
+}
+
+h3 {
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.success-message {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.success-message.show {
+  display: block;
+}
